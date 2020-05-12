@@ -1,0 +1,85 @@
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.save{
+  display: none;
+}
+
+
+/*  W3SCHOOLS*/
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header, .footer {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+
+.btn{
+  margin: 2px;
+}
+
+#toggleTableGraph{
+  margin-left: 200px;
+}
+
+
+.modal-dialog {
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  bottom: 0;
+  left: 0;
+  z-index: 10040;
+  overflow: auto;
+  overflow-y: auto;
+}
+
+.toggle.android { border-radius: 0px;}
+.toggle.android .toggle-handle { border-radius: 0px; }
+
+#selectGender, #selectAge, #displayBut{
+  width: 200px;
+  /* margin:15px auto; */
+  
+}
+
+.selectGraph{
+  width: 210px;
+   margin:100px auto;
+}
+
+.selectTxt2{
+  margin-top: 15px;
+}
+
+
+#displayBut{
+  margin-top: 30px;
+}
+
+
+
+svg{
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.bar { fill: #ff6666 }
+
+.tick text {
+  font-family: sans-serif;
+  font-size: 13px;
+}

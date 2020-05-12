@@ -1,0 +1,51 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Health behaviour in school-aged children 2002, student response to question: How often do you wear a helmet when you ride a bicycle?",13100262,110-0076,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310026201",1,"ARCHIVED -  a cube publicly available but no longer being updated","Every 4 years",2002-01-01,2002-01-01,4
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Correction Notes","Dimension Definitions"
+1,Geography,,,
+2,Sex,,,
+3,"Age group",,,
+4,"Student response",,,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Correction Notes","Member Geo Attribute Keys","Member Definitions"
+1,Canada,,1,,,,,,
+2,Males,,1,,,,,,
+2,Females,,2,,,,,,
+3,"11 years",,1,,,,,,
+3,"13 years",,2,,,,,,
+3,"15 years",,3,,,,,,
+4,"Rarely or never",,1,,,,,,
+4,Sometimes,,2,,,,,,
+4,Often,,3,,,,,,
+4,Always,,4,,,,,,
+4,"Do not ride a bicycle",,5,,,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+7509,"Public Health Agency of Canada"
+
+"Subject Code","Subject Name"
+13,Health
+
+"Note ID",Note
+1,"For similar historical data, see CANSIM table 1100030."
+
+"Correction ID","Correction Date","Correction Note"
+
+
