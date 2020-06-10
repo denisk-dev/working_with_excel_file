@@ -3,38 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DennisProject</title>
-
-  
+  <title>Denis</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  
   <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-<script src="https://d3js.org/d3.v4.min.js"></script>
-
-
+  <script src="https://d3js.org/d3.v4.min.js"></script>
 
 <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-
-
   <div class="header">
-    <h1>CST8333</h1>
-    <p>Dennis Kravchenko</p>
+    <h1>Denis Kravchenko</h1>
   </div>
 
   <div class="content">
     
     <button type="button" class="btn btn-info btn-lg" onclick="reload()">Reload</button><button type="button" class="btn btn-info btn-lg" onclick="downloadData()">Update Origial CSV file</button><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModal">Create new CSV file</button> </label><input type="checkbox" checked onchange="toggleBetweenTableAndGraph(this)"  data-toggle="toggle" data-style="android" data-width="100" data-onstyle="info" data-offstyle="primary" data-target="#graphModalData" data-on="Table" data-off="Chart">
-
-    <!-- Button trigger modal -->
-
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -116,30 +104,6 @@
       </thead>
       <tbody>
 
-        
-
-         <!-- <tr>
-          <td>2002</td>
-          <td>Canada</td>
-          <td></td>
-          <td>Males</td>
-          <td>11 years</td>
-          <td>Rarely or never</td>
-          <td>Percent</td>
-          <td>239</td>
-          <td>units</td>
-          <td>0</td>
-          <td>v30413271</td>
-          <td>1.1.1.1</td>
-          <td>31</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td>0</td>
-          <td><button type="button" class="btn btn-primary">Edit</button><button type="button" class="btn btn-danger">Delete</button></td>
-        </tr> -->
-
-
         <tr>
           <td><input type="text" size="1" id="newRefDate"></td>
           <td><input type="text" size="1" id="newGEO"></td>
@@ -160,27 +124,13 @@
           <td><input type="text" size="1" id="newDecim"></td>
           <td><button type="button" class="btn btn-primary" onclick="addRow()">Add Record</button></td>
         </tr>
-        
-
-        <!--
-        <tr>
-          <td><input type="text" id="newFName"></td>
-          <td><input type="text" id="newLName"></td>
-          <td><button type="button" class="btn btn-primary" onclick="addRow()">Add Record</button></td>
-        </tr> -->
-        
-
-      
       </tbody>
     </table>
   </div>
 
   <footer class="footer">
-    <p>Dennis Kravchenko</p>
-    <p>CST8333</p>
+    <p>Denis Kravchenko</p>
   </footer>
-
-  
   <script src="./js/manage_table.js"></script>
   <script src="./js/graph.js"></script>
 </body>

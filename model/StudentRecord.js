@@ -1,36 +1,50 @@
-/** 
-* author: Dennis kravchenko
-* class: CST 8333 
-* Algonquin College
-* 2020-03-24
-*/
+/**
+ * author: Denis kravchenko
+ */
 
-/** 
+/**
  * Class representing a Student record
  */
-class Student{
-
+class Student {
   /**
    * Constructor for a Student class
-   * @param {refDate} refDate 
-   * @param {geo} geo 
-   * @param {dguid} dguid 
-   * @param {sex} sex 
-   * @param {ageGroup} ageGroup 
-   * @param {studentResponse} studentResponse 
-   * @param {uom} uom 
-   * @param {uomId} uomId 
-   * @param {scalarFactor} scalarFactor 
-   * @param {scalarId} scalarId 
-   * @param {vector} vector 
-   * @param {coordinate} coordinate 
-   * @param {value} value 
-   * @param {status} status 
-   * @param {symbol} symbol 
-   * @param {terminated} terminated 
-   * @param {decimals} decimals 
+   * @param {refDate} refDate
+   * @param {geo} geo
+   * @param {dguid} dguid
+   * @param {sex} sex
+   * @param {ageGroup} ageGroup
+   * @param {studentResponse} studentResponse
+   * @param {uom} uom
+   * @param {uomId} uomId
+   * @param {scalarFactor} scalarFactor
+   * @param {scalarId} scalarId
+   * @param {vector} vector
+   * @param {coordinate} coordinate
+   * @param {value} value
+   * @param {status} status
+   * @param {symbol} symbol
+   * @param {terminated} terminated
+   * @param {decimals} decimals
    */
-  constructor(refDate, geo, dguid, sex, ageGroup, studentResponse, uom, uomId, scalarFactor, scalarId, vector,coordinate,value,status,symbol,terminated,decimals){
+  constructor(
+    refDate,
+    geo,
+    dguid,
+    sex,
+    ageGroup,
+    studentResponse,
+    uom,
+    uomId,
+    scalarFactor,
+    scalarId,
+    vector,
+    coordinate,
+    value,
+    status,
+    symbol,
+    terminated,
+    decimals
+  ) {
     this.refDate = refDate;
     this.geo = geo;
     this.dguid = dguid;
@@ -49,9 +63,6 @@ class Student{
     this.terminated = terminated;
     this.decimals = decimals;
   }
-
-
-
 }
 
 // exporting module(class Sdtudent)

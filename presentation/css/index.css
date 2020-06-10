@@ -3,19 +3,17 @@
   padding-left: 0px;
 }
 
-.save{
+.save {
   display: none;
 }
 
-
-/*  W3SCHOOLS*/
 body {
   font-family: Arial;
   margin: 0;
 }
 
-/* Header/Logo Title */
-.header, .footer {
+.header,
+.footer {
   padding: 60px;
   text-align: center;
   background: #1abc9c;
@@ -23,17 +21,17 @@ body {
   font-size: 30px;
 }
 
-/* Page Content */
-.content {padding:20px;}
+.content {
+  padding: 20px;
+}
 
-.btn{
+.btn {
   margin: 2px;
 }
 
-#toggleTableGraph{
+#toggleTableGraph {
   margin-left: 200px;
 }
-
 
 .modal-dialog {
   position: absolute;
@@ -46,38 +44,41 @@ body {
   overflow-y: auto;
 }
 
-.toggle.android { border-radius: 0px;}
-.toggle.android .toggle-handle { border-radius: 0px; }
+.toggle.android {
+  border-radius: 0px;
+}
+.toggle.android .toggle-handle {
+  border-radius: 0px;
+}
 
-#selectGender, #selectAge, #displayBut{
+#selectGender,
+#selectAge,
+#displayBut {
   width: 200px;
-  /* margin:15px auto; */
-  
 }
 
-.selectGraph{
+.selectGraph {
   width: 210px;
-   margin:100px auto;
+  margin: 100px auto;
 }
 
-.selectTxt2{
+.selectTxt2 {
   margin-top: 15px;
 }
 
-
-#displayBut{
+#displayBut {
   margin-top: 30px;
 }
 
-
-
-svg{
+svg {
   display: block;
   margin: auto;
   margin-bottom: 100px;
 }
 
-.bar { fill: #ff6666 }
+.bar {
+  fill: #ff6666;
+}
 
 .tick text {
   font-family: sans-serif;

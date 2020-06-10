@@ -1,75 +1,69 @@
-/** 
-* author: Dennis kravchenko
-* class: CST 8333 
-* Algonquin College
-* 2020-03-24
-*/
+/**
+ * author: Denis kravchenko
+ */
 
 /**
  * MongoDB object modeling tool. Helps to communicate with the db
  * @type{object}
  */
-const mongoose = require('mongoose');
-
+const mongoose = require("mongoose");
 
 /**
  * Schema for the database
  */
 const StudentsSchema = mongoose.Schema({
-
-  REF_DATE:{
-    type: String
+  REF_DATE: {
+    type: String,
   },
-  GEO:{
-    type: String
+  GEO: {
+    type: String,
   },
-  DGUID:{
-    type: String
+  DGUID: {
+    type: String,
   },
-  SEX:{
-    type: String
+  SEX: {
+    type: String,
   },
-  AGE_GROUP:{
-    type: String
+  AGE_GROUP: {
+    type: String,
   },
-  STUDENT_RESPONSE:{
-    type: String
+  STUDENT_RESPONSE: {
+    type: String,
   },
-  UOM:{
-    type: String
+  UOM: {
+    type: String,
   },
-  UOM_ID:{
-    type: String
+  UOM_ID: {
+    type: String,
   },
-  SCALAR_FACTOR:{
-    type: String
+  SCALAR_FACTOR: {
+    type: String,
   },
-  SCALAR_ID:{
-    type: String
+  SCALAR_ID: {
+    type: String,
   },
-  VECTOR:{
-    type: String
+  VECTOR: {
+    type: String,
   },
-  COORDINATE:{
-    type: String
+  COORDINATE: {
+    type: String,
   },
-  VALUE:{
-    type: String
+  VALUE: {
+    type: String,
   },
-  STATUS:{
-    type: String
+  STATUS: {
+    type: String,
   },
-  SYMBOL:{
-    type: String
+  SYMBOL: {
+    type: String,
   },
-  TERMINATED:{
-    type: String
+  TERMINATED: {
+    type: String,
   },
-  DECIMALS:{
-    type: String
-  }
+  DECIMALS: {
+    type: String,
+  },
 });
 
-
 //exporting the Schema
-module.exports = mongoose.model('StudentsRecords', StudentsSchema);
+module.exports = mongoose.model("StudentsRecords", StudentsSchema);
