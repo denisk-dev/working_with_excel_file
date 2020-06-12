@@ -4,7 +4,8 @@
   "description": "Final Project for CST8333",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "concurrently \" node business/Controller \" \"start presentation/index.html \" "
   },
   "author": "dennis kravchenko",
   "license": "ISC",
